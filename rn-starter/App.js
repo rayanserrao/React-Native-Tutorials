@@ -7,6 +7,8 @@ import ListScreen from "./src/screens/listscreen";
 import Friendlist from "./src/screens/exce2";
 import ImageScreen from "./src/screens/ImageScreen";
 import Counterscreen from "./src/screens/counterscreen";
+import colorscreen from "./src/screens/colorscreen";
+import sqaureScreen from './src/screens/squarescreen';
 
 const navigator = createStackNavigator(
   {
@@ -16,7 +18,9 @@ const navigator = createStackNavigator(
     ListDisplay: ListScreen,
     FriendDisplay: Friendlist,
     Imagesc: ImageScreen,
-    Counter: Counterscreen
+    Counter: Counterscreen,
+    Color:colorscreen,
+    Square:sqaureScreen
   },
   {
     initialRouteName: "Home",
