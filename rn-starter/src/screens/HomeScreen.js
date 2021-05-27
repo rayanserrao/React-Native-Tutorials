@@ -37,6 +37,16 @@ const HomeScreen = ({ navigation }) => {
       />
 
 
+      <Button title="counter with reducer"
+        onPress={() => navigation.navigate('CounterRed')}
+      />
+
+
+      <Button title="text screen"
+        onPress={() => navigation.navigate('TextScreen')}
+      />
+
+
     </View>
   );
 };
