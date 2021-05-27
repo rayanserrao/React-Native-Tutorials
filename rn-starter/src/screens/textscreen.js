@@ -5,14 +5,14 @@ const textScreen = ()=>{
     const [name, setname] = useState('');
     return(
         <View>
-        <Text>Enter Name:</Text>
+        <Text>Enter Password</Text>
      <TextInput
     autoCapitalize = 'none'
     autoCorrect = {false}
     value={name}
     onChangeText={(newvalue) => setname(newvalue)}
     style = {styles.input}/>
-    <Text> My name is {name}</Text>
+    <Text> {name.length>=5? 'password is strong':null}</Text>
     </View>
     );
 };
