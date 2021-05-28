@@ -51,6 +51,11 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('BoxScreen')}
       />
 
+
+      <Button title="Layout screen excer"
+        onPress={() => navigation.navigate('Excer')}
+      />
+
     </View>
   );
 };
